@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	api.Hi("Sergey")
+	api.Hi("Sergey!")
 	fmt.Println(quote.Go())
 	fmt.Println(quotev3.GoV3())
 	fmt.Println(hello.Hello("Sergey"))
