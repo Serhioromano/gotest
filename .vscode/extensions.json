@@ -1,5 +1,7 @@
 {
     "recommendations": [
-        "rapidapi.vscode-rapidapi-client"
+        "rapidapi.vscode-rapidapi-client",
+        "vscode-icons-team.vscode-icons",
+        "eliverlara.andromeda"
     ]
 }
