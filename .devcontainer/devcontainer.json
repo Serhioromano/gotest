@@ -9,7 +9,8 @@
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     // "forwardPorts": [],
     // Use 'postCreateCommand' to run commands after the container is created.
-    "postCreateCommand": "apt update && apt upgrade -y && go get github.com/githubnemo/CompileDaemon && go install github.com/githubnemo/CompileDaemon",
+    "postCreateCommand": "bash scripts/post-run.sh",
+    // "postCreateCommand": "apt update && apt upgrade -y && cd /workspaces/gotest && go get github.com/githubnemo/CompileDaemon && go install github.com/githubnemo/CompileDaemon && git config --global user.name \"Serhioromano\" && git config --global user.email \"serg4172@mail.ru\"",
     // Configure tool-specific properties.
     // "customizations": {},
     // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.

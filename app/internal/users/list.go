@@ -15,6 +15,5 @@ func List(c *fiber.Ctx) (map[string]interface{}, error) {
 			"mobile": "123456",
 			"home": "456789",
 		},
-	}, nil
-	// return fiber.ErrBadRequest
+	}, fiber.ErrBadRequest
 }
